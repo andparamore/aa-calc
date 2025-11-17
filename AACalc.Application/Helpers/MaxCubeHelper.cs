@@ -5,12 +5,9 @@ namespace AACalc.Application.Helpers;
 
 public class MaxCubeHelper
 {
-    public static int GetSynthesisSlots(ItemSlotGroup group, QualityType quality)
+    public static int GetMaxCube(ItemSlotGroup group, ItemGroup? itemGroup)
     {
-        var baseSlots = group.GetBaseSlots();
-        var bonus = quality.GetSlotBonus();
-        
-        var result = baseSlots + bonus;
-        return Math.Max(0, result);
+        var withCube = group.WithCube();
+        return !withCube || itemGroup == null ? 0 : itemGroup.GetMaxCube();
     }
 }

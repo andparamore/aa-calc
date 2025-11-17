@@ -36,7 +36,7 @@ public static class QualitySelector
         {
             QualityType = q.QualityType,
             Rating = q.Rating,
-            EngravingSlotCount = EngravingSlotCountHelper.GetSynthesisSlots(category, q.QualityType),
+            EngravingSlotCount = EngravingSlotCountHelper.GetEngravingSlotCount(slotGroup, q.QualityType),
             Attributes = q.Attributes.ToDictionary(kv => kv.Key, kv => kv.Value),
             SynthesisPools = new List<SynthesisPoolModel>()
         };

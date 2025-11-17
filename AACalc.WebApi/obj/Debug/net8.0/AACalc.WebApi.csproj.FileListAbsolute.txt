@@ -64,3 +64,4 @@ C:\aacalc\AACalc\AACalc.WebApi\bin\Debug\net8.0\AACalc.Application.dll
 C:\aacalc\AACalc\AACalc.WebApi\bin\Debug\net8.0\AACalc.Shared.dll
 C:\aacalc\AACalc\AACalc.WebApi\bin\Debug\net8.0\AACalc.Application.pdb
 C:\aacalc\AACalc\AACalc.WebApi\bin\Debug\net8.0\AACalc.Shared.pdb
+C:\aacalc\AACalc\AACalc.WebApi\obj\Debug\net8.0\AACalc.WebApi.sourcelink.json

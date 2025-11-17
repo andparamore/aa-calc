@@ -17,3 +17,4 @@ C:\aacalc\AACalc\AACalc.Application\bin\Debug\net8.0\AACalc.Domain.pdb
 C:\aacalc\AACalc\AACalc.Application\bin\Debug\net8.0\AACalc.Shared.pdb
 C:\aacalc\AACalc\AACalc.Application\obj\Debug\net8.0\AACalc.Application.csproj.AssemblyReference.cache
 C:\aacalc\AACalc\AACalc.Application\obj\Debug\net8.0\AACalc.A.CAB5170D.Up2Date
+C:\aacalc\AACalc\AACalc.Application\obj\Debug\net8.0\AACalc.Application.sourcelink.json

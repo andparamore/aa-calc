@@ -1,14 +1,9 @@
 namespace AACalc.Shared.Attributes;
 
 [AttributeUsage(AttributeTargets.Field)]
-public sealed class SlotConfigAttribute : Attribute
+public sealed class SlotConfigAttribute(int baseSlots, bool withCube, string? displayName = null) : Attribute
 {
-    public int BaseSlots { get; }           // для Uncommon/Rare/Artifact
-    public string DisplayName { get; }      // опционально
-
-    public SlotConfigAttribute(int baseSlots, string? displayName = null)
-    {
-        BaseSlots = baseSlots;
-        DisplayName = displayName ?? string.Empty;
-    }
+    public int BaseSlots { get; } = baseSlots;
+    public bool WithCube { get; } = withCube;
+    public string DisplayName { get; } = displayName ?? string.Empty;
 }

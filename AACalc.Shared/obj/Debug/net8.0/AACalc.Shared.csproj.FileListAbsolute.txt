@@ -9,3 +9,4 @@ C:\aacalc\AACalc\AACalc.Shared\obj\Debug\net8.0\AACalc.Shared.dll
 C:\aacalc\AACalc\AACalc.Shared\obj\Debug\net8.0\refint\AACalc.Shared.dll
 C:\aacalc\AACalc\AACalc.Shared\obj\Debug\net8.0\AACalc.Shared.pdb
 C:\aacalc\AACalc\AACalc.Shared\obj\Debug\net8.0\ref\AACalc.Shared.dll
+C:\aacalc\AACalc\AACalc.Shared\obj\Debug\net8.0\AACalc.Shared.sourcelink.json

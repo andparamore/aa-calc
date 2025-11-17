@@ -6,5 +6,6 @@ public enum ItemGroup : byte
     Ramian = 1,
     Dungeon = 2,
     Mythic = 3,
-    Question = 4
+    Question = 4,
+    Shop = 5
 }

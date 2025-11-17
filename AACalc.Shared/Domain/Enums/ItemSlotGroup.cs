@@ -4,27 +4,30 @@ namespace AACalc.Shared.Domain.Enums;
 
 public enum ItemSlotGroup
 {
-    [SlotConfig(6, "Оружие")]
+    [SlotConfig(6, true, "Оружие")]
     Weapon,
 
-    [SlotConfig(6, "Нагрудник")]
+    [SlotConfig(3, false, "Музыкальный инструмент")]
+    Musical,
+
+    [SlotConfig(6, true, "Нагрудник")]
     PrimaryArmor,
 
-    [SlotConfig(5, "Шлем, поножи")]
+    [SlotConfig(5, true, "Шлем, поножи")]
     SecondaryArmor,
 
-    [SlotConfig(4, "Перчатки и сапоги")]
+    [SlotConfig(4, true, "Перчатки и сапоги")]
     MinorArmor,
     
-    [SlotConfig(3, "Пояс и наручи")]
+    [SlotConfig(3, true, "Пояс и наручи")]
     LowTierArmor,
 
-    [SlotConfig(2, "Украшения")]
+    [SlotConfig(2, false, "Украшения")]
     Jewelry,
 
-    [SlotConfig(-100, "Без гравировок")]
+    [SlotConfig(-100, false, "Без гравировок")]
     WithoutEngravings,
 
-    [SlotConfig(3, "Нижнее белье")]
+    [SlotConfig(3, false, "Нижнее белье")]
     Underwear
 }

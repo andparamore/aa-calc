@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AACalc.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5cc769873a549ebf12adb3ee6656b5cc38fc70f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AACalc.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AACalc.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,3 +13,4 @@ C:\aacalc\AACalc\AACalc.Domain\bin\Debug\net8.0\AACalc.Shared.dll
 C:\aacalc\AACalc\AACalc.Domain\bin\Debug\net8.0\AACalc.Shared.pdb
 C:\aacalc\AACalc\AACalc.Domain\obj\Debug\net8.0\AACalc.Domain.csproj.AssemblyReference.cache
 C:\aacalc\AACalc\AACalc.Domain\obj\Debug\net8.0\AACalc.D.2AEBE7A2.Up2Date
+C:\aacalc\AACalc\AACalc.Domain\obj\Debug\net8.0\AACalc.Domain.sourcelink.json

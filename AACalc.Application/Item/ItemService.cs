@@ -51,7 +51,7 @@ public class ItemService(IUnitOfWork unitOfWork, IItemRepository itemRepository)
                     ItemGroup = item.ItemGroup,
                     ItemSubtype = item.ItemSubtype,
                     ItemCategory = item.ItemCategory,
-                    MaxCube = ,
+                    MaxCube = MaxCubeHelper.GetMaxCube(itemSlotGroup, item.ItemGroup),
                     Quality = QualitySelector.SelectBest(item.Qualities, requestedQuality, itemSlotGroup)
                 };
             })
@@ -68,7 +68,7 @@ public class ItemService(IUnitOfWork unitOfWork, IItemRepository itemRepository)
             return null;
         
         var slotGroup = data.ItemCategory.GetSlotGroup();
-
+        
         var qualities = data.Qualities.Select(q => new QualityModelDto
         {
             QualityType = q.QualityType,
@@ -107,6 +107,7 @@ public class ItemService(IUnitOfWork unitOfWork, IItemRepository itemRepository)
             ItemGroup = data.ItemGroup,
             ItemSubtype = data.ItemSubtype,
             ItemCategory = data.ItemCategory,
+            MaxCube = MaxCubeHelper.GetMaxCube(slotGroup, data.ItemGroup),
             AllQualities = qualities
         };
     }

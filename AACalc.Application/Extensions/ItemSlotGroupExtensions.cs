@@ -10,7 +10,7 @@ public static class ItemSlotGroupExtensions
     {
         var field = group.GetType().GetField(group.ToString());
         var attribute = field?.GetCustomAttribute<SlotConfigAttribute>();
-        return attribute?.BaseSlots ?? -100; // fallback
+        return attribute?.BaseSlots ?? -100;
     }
 
     public static string GetDisplayName(this ItemSlotGroup group)
@@ -18,5 +18,12 @@ public static class ItemSlotGroupExtensions
         var field = group.GetType().GetField(group.ToString());
         var attribute = field?.GetCustomAttribute<SlotConfigAttribute>();
         return attribute?.DisplayName ?? group.ToString();
+    }
+    
+    public static bool WithCube(this ItemSlotGroup group)
+    {
+        var field = group.GetType().GetField(group.ToString());
+        var attribute = field?.GetCustomAttribute<SlotConfigAttribute>();
+        return attribute?.WithCube ?? false;
     }
 }

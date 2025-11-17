@@ -17,3 +17,4 @@ C:\aacalc\AACalc\AACalc.Infrastructure\obj\Debug\net8.0\AACalc.Infrastructure.ge
 C:\aacalc\AACalc\AACalc.Infrastructure\obj\Debug\net8.0\ref\AACalc.Infrastructure.dll
 C:\aacalc\AACalc\AACalc.Infrastructure\bin\Debug\net8.0\AACalc.Shared.dll
 C:\aacalc\AACalc\AACalc.Infrastructure\bin\Debug\net8.0\AACalc.Shared.pdb
+C:\aacalc\AACalc\AACalc.Infrastructure\obj\Debug\net8.0\AACalc.Infrastructure.sourcelink.json
