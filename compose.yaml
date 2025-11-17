@@ -1,6 +1,5 @@
 ﻿services:
   aacalc.webapi:
-    image: aacalc.webapi
     build:
       context: .
       dockerfile: AACalc.WebApi/Dockerfile
@@ -11,7 +10,7 @@
       CONNECTIONSTRINGS__CORE: Host=aacalc.db;Port=5432;Database=item_store;Username=user;Password=pass
       APPLY_MIGRATIONS_ON_STARTUP: true
     ports:
-      - "5000:8080"
+      - "8080:8080"
 
   aacalc.db:
     image: postgres:16
