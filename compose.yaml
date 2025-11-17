@@ -1,0 +1,35 @@
+﻿services:
+  aacalc.webapi:
+    image: aacalc.webapi
+    build:
+      context: .
+      dockerfile: AACalc.WebApi/Dockerfile
+    depends_on:
+      - aacalc.db
+      - aacalc.redis
+    environment:
+      CONNECTIONSTRINGS__CORE: Host=aacalc.db;Port=5432;Database=item_store;Username=user;Password=pass
+      APPLY_MIGRATIONS_ON_STARTUP: true
+    ports:
+      - "5000:8080"
+
+  aacalc.db:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: item_store
+    ports:
+      - "5432:5432"
+    volumes:
+      - app-db-data:/var/lib/postgresql/data
+        
+  aacalc.redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    command: [ "redis-server", "--appendonly", "yes" ]
+    
+volumes:
+  app-db-data:

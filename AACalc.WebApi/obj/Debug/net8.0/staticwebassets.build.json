@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Y8mlLJdlvAPwk0joIAXN5uE8cDIy400g9dUf9TY9IUE=",
+  "Source": "AACalc.WebApi",
+  "BasePath": "_content/AACalc.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

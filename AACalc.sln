@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AACalc.WebApi", "AACalc.WebApi\AACalc.WebApi.csproj", "{946A28C9-A54D-4F5B-A1FA-560CB7564F98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6321E41E-E0A5-4E7C-A298-E1113ADD566D}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AACalc.Infrastructure", "AACalc.Infrastructure\AACalc.Infrastructure.csproj", "{9BBB5F9A-3EB2-4E4E-84C6-2B13571AE25F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AACalc.Domain", "AACalc.Domain\AACalc.Domain.csproj", "{F222A0DB-BA07-48C9-8B61-1A46818BFDA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AACalc.Shared", "AACalc.Shared\AACalc.Shared.csproj", "{8CFFA71A-68FD-44B0-B689-F965F5347D11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AACalc.Application", "AACalc.Application\AACalc.Application.csproj", "{3C78C913-8642-464E-BF3E-B5F68CB7A2EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{946A28C9-A54D-4F5B-A1FA-560CB7564F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{946A28C9-A54D-4F5B-A1FA-560CB7564F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{946A28C9-A54D-4F5B-A1FA-560CB7564F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{946A28C9-A54D-4F5B-A1FA-560CB7564F98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BBB5F9A-3EB2-4E4E-84C6-2B13571AE25F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BBB5F9A-3EB2-4E4E-84C6-2B13571AE25F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BBB5F9A-3EB2-4E4E-84C6-2B13571AE25F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BBB5F9A-3EB2-4E4E-84C6-2B13571AE25F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F222A0DB-BA07-48C9-8B61-1A46818BFDA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F222A0DB-BA07-48C9-8B61-1A46818BFDA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F222A0DB-BA07-48C9-8B61-1A46818BFDA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F222A0DB-BA07-48C9-8B61-1A46818BFDA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CFFA71A-68FD-44B0-B689-F965F5347D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CFFA71A-68FD-44B0-B689-F965F5347D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CFFA71A-68FD-44B0-B689-F965F5347D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CFFA71A-68FD-44B0-B689-F965F5347D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C78C913-8642-464E-BF3E-B5F68CB7A2EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C78C913-8642-464E-BF3E-B5F68CB7A2EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C78C913-8642-464E-BF3E-B5F68CB7A2EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C78C913-8642-464E-BF3E-B5F68CB7A2EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

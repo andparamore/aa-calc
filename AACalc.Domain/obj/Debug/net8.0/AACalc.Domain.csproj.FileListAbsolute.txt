@@ -1,0 +1,15 @@
+C:\aacalc\AACalc\AACalc.Domain\bin\Debug\net8.0\AACalc.Domain.deps.json
+C:\aacalc\AACalc\AACalc.Domain\bin\Debug\net8.0\AACalc.Domain.dll
+C:\aacalc\AACalc\AACalc.Domain\bin\Debug\net8.0\AACalc.Domain.pdb
+C:\aacalc\AACalc\AACalc.Domain\obj\Debug\net8.0\AACalc.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\aacalc\AACalc\AACalc.Domain\obj\Debug\net8.0\AACalc.Domain.AssemblyInfoInputs.cache
+C:\aacalc\AACalc\AACalc.Domain\obj\Debug\net8.0\AACalc.Domain.AssemblyInfo.cs
+C:\aacalc\AACalc\AACalc.Domain\obj\Debug\net8.0\AACalc.Domain.csproj.CoreCompileInputs.cache
+C:\aacalc\AACalc\AACalc.Domain\obj\Debug\net8.0\AACalc.Domain.dll
+C:\aacalc\AACalc\AACalc.Domain\obj\Debug\net8.0\refint\AACalc.Domain.dll
+C:\aacalc\AACalc\AACalc.Domain\obj\Debug\net8.0\AACalc.Domain.pdb
+C:\aacalc\AACalc\AACalc.Domain\obj\Debug\net8.0\ref\AACalc.Domain.dll
+C:\aacalc\AACalc\AACalc.Domain\bin\Debug\net8.0\AACalc.Shared.dll
+C:\aacalc\AACalc\AACalc.Domain\bin\Debug\net8.0\AACalc.Shared.pdb
+C:\aacalc\AACalc\AACalc.Domain\obj\Debug\net8.0\AACalc.Domain.csproj.AssemblyReference.cache
+C:\aacalc\AACalc\AACalc.Domain\obj\Debug\net8.0\AACalc.D.2AEBE7A2.Up2Date
